@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    width:100%;
+    min-height: 100vh;
+    margin: auto;
+    background: linear-gradient(135deg,#3564c2,#6a0c82);
+    overflow: auto;
+    position: relative;
+}
+.container .card{
+    width:35%;
+    background-color: rgb(248, 246, 245);
+    position: absolute;
+    left:35%;
+    top:15%;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    align-items: center;
+    padding: 0px 10px;
+}
+.container .card i{
+    font-size: 25px;
+    color: #002765;
+    margin-left: 20px;
+}
+.container .card h3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    margin:20px;
+    color: #002765;
+    font-size: 20px;
+    
+}
+.container .card .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container .card  .row input{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    flex: 1;
+}
+.btn{
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    background-color: #002765;
+    padding: 10px 20px;
+    color: white;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+ul li{
+    list-style-type: none;
+    font-size: 20px;
+    padding:10px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+.danger{
+    text-decoration: line-through;
+    color: darkgray;
+}
+.btn-container{
+    text-align: right;
+}
+.check{
+    background-color: #002765;
+    padding: 10px 20px;
+    color: white;
+}
+.delete{
+    background-color: rgb(173, 9, 9);
+    color: white;
+    padding:10px 30px;
+}
+
+/* ===================Media-Query=================== */
+@media(max-width:992px){
+    .container .card{
+        width:50%;
+        left:20%;
+        top:15%;
+    }
+}
+@media(max-width:780px){
+    .container .card{
+        width:70%;
+        left:10%;
+        top:15%;
+    }
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-DO List</title>
+    <!-----------Google Fonts---------->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!-----------Font-Awesome --------->
+    <link rel="stylesheet" href="./assets/vendors/fonts/all.min.css" />
+    <!------------Main-CSS------------>
+    <link rel="stylesheet" href="./assets/css/main.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h3>To-Do List <i class="fa-solid fa-clipboard-list"></i></h3>
+            <div class="row">
+                <input class="input-form" type="text" id="add" name="add" placeholder="Add Your Task">
+                <button class="btn btn-primary" onclick="Add()">Add</button>
+            </div> 
+            <p class="title">Tasks</p>  
+            <ul id="list">
+                <li>Task-1</li>
+            </ul>
+    </div>
+    <!------------Main-JS----------->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
