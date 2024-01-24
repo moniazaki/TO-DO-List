@@ -131,4 +131,11 @@ ul li{
         top:15%;
     }
 }
+@media(max-width:580px){
+    .container .card{
+        width:75%;
+        left:13%;
+        top:15%;
+    }
+}
 
